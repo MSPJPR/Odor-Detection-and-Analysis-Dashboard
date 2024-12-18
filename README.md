@@ -2,7 +2,7 @@
 Project Overview: Electronic Nose Simulation Dashboard
 
 website link:
-https://lnkd.in/eFGjUAU5
+https://friendly-crumble-bbaa79.netlify.app/
 
 
 Objective:
