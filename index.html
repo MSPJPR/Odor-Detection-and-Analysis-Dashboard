@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odor Detection and Analysis Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/brain.js@2.0.0-beta.24/dist/browser.js"></script>
+</head>
+<body>
+    <h1>Odor Detection and Analysis Dashboard</h1>
+    <div class="input-section">
+        <label for="chemical">Select a Chemical Compound:</label>
+        <select id="chemical">
+            <option value="H2S">Hydrogen Sulfide (H<sub>2</sub>S)</option>
+            <option value="NH3">Ammonia (NH<sub>3</sub>)</option>
+            <option value="CH3COOH">Acetic Acid (CH<sub>3</sub>COOH)</option>
+            <option value="C6H6">Benzene (C<sub>6</sub>H<sub>6</sub>)</option>
+            <option value="SO2">Sulfur Dioxide (SO<sub>2</sub>)</option>
+            <option value="CH4">Methane (CH<sub>4</sub>)</option>
+        </select>
+        <button onclick="analyzeOdor()">Analyze Odor</button>
+    </div>
+
+    <div id="output" class="output-section"></div>
+    <div id="visualization" class="visualization"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
